@@ -1,0 +1,43 @@
+# NCBI BioProject PRJNA734114
+
+## Project Information
+- **BioProject ID**: PRJNA734114
+- **Title**: Cannabis sativa genome sequencing
+- **Organism**: Cannabis sativa (hemp/marijuana)
+- **Data Type**: Whole Genome Sequencing (WGS)
+- **Sequencing Platform**: Illumina
+- **Format**: FASTQ (paired-end reads)
+
+## What This Data Contains
+- Raw sequencing reads from Cannabis sativa
+- Multiple samples/accessions
+- Typically 30-50X coverage per sample
+- Used for genome assembly, variant calling, gene discovery
+
+## Expected Quality
+- **GC Content**: ~38% (Cannabis typical)
+- **Genome Size**: ~850-900 Mbp
+- **Quality**: Q30 >80% for good Illumina runs
+- **Heterozygosity**: ~0.3% (3 SNPs per kb)
+
+## Genes of Interest
+- **Cannabinoid biosynthesis**: THCA synthase, CBDA synthase
+- **Terpene biosynthesis**: Myrcene, Limonene, Pinene synthases
+- **Sex determination**: X/Y chromosome markers
+
+## Analysis Goals
+- Quality control of sequencing data
+- Filter high-quality samples for downstream analysis
+- Identify samples suitable for:
+  - Genome assembly
+  - Variant calling
+  - Gene annotation
+  - ML/AI training data
+
+## Our Monitoring Will Check
+- Sequencing quality (Q scores)
+- Genome completeness
+- GC content consistency
+- Complexity and integrity
+- Suitability for your analyses
+
